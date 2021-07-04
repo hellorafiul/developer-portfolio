@@ -9,7 +9,7 @@ h1{
 .orange-color{
   color: orange;
 }
-section{
+.flexible-container{
   display: flex;
   margin-bottom: 200px;
 }
@@ -55,4 +55,45 @@ box-shadow: none;
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right top;
+}
+.experience-area h1{
+
+}
+.experience-item{
+  box-shadow: 10px 10px 40px #ddd;
+  width: 40%;
+  margin: 0% 6%;
+  padding-left: 2%;
+  padding-right: 1%;
+  text-align: justify;
+  height: 400px;
+  border-radius: 7px;
+  
+}
+#baby-web-developer{
+  border-image:linear-gradient(blue, cyan) 1;
+  border-left: 10px solid;
+}
+#full-stack-developer{
+  border-image:linear-gradient(#FF3383, orange ) 1;
+  border-left: 10px solid;
+}
+.experience-area{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left -30px top ;
+  
+}
+.experience-area h1{
+  color: #FFA500;
+  margin-left: 6%;
+  
+}
+h2{
+  font-size: 35px;
+  font-weight: 100;
+}
+footer p{
+  text-align: center;
+  color: rgb(153, 151, 151);
 }
