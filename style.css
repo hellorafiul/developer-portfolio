@@ -11,6 +11,7 @@ h1{
 }
 section{
   display: flex;
+  margin-bottom: 200px;
 }
 .half-width{
   width: 50%;
@@ -27,11 +28,31 @@ section{
   color: white;
   font-weight: 700;
   letter-spacing: 3px;
+  display: inline-block;
+  box-shadow: 2px 4px rgb(224, 224, 224);
 }
-.half-width p{
-  margin-bottom: 30px;
+.link-button:hover{
+background-image: linear-gradient(#f7981c, #FFCB1B);
+box-shadow: none;
 }
+.half-width a{margin-top: 25px;}
 .top-banner{
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.dream-big img{
+  width: 80%;
+}
+.dream-big h1{
+  color: #FFA500;
+  margin-bottom: 0;
+}
+.dream-big-right{
+  padding-top:2%;
+  padding-right: 10%;
+}
+.dream-big{
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right top;
 }
